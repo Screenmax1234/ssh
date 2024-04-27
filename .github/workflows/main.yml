@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
+    - uses: entepotenz/keep-github-actions-alive-min-dependencies@v1
     - name: Setup tmate session
       uses: mxschmitt/action-tmate@v3
-    - uses: entepotenz/keep-github-actions-alive-min-dependencies@v1
